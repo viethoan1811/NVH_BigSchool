@@ -7,13 +7,13 @@ namespace NVH_BigSchool.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    public sealed partial class InitialModel1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel1));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303060633294_InitialModel"; }
+            get { return "202303130846585_InitialModel1"; }
         }
         
         string IMigrationMetadata.Source
